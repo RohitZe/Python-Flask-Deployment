@@ -10,7 +10,7 @@ def about():
 
 @app.route("/phone")
 def myphone():
-    return "9300000000"
+    return "89xxxxxxxx"
 
 @app.route("/hello")
 def hello():
