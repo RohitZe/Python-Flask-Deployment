@@ -4,8 +4,13 @@ app = Flask(__name__)
 
 
 @app.route("/info")
-def hello():
+def about():
     return "Rohit sharma devops guy"
+
+
+@app.route("/phone")
+def myphone():
+    return "9315723279"
 
 @app.route("/hello")
 def hello():
